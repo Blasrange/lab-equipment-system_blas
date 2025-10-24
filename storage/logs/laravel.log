@@ -3239,3 +3239,7 @@ Did you mean one of these?
 [2025-10-23 17:21:37] local.INFO: Usuarios cargados con filtros: {"total":8,"current_page":1,"filters":[]} 
 [2025-10-23 17:22:16] local.INFO: Usuarios cargados con filtros: {"total":8,"current_page":1,"filters":[]} 
 [2025-10-23 17:22:47] local.INFO: Usuarios cargados con filtros: {"total":8,"current_page":1,"filters":[]} 
+[2025-10-24 11:13:03] local.INFO: Usuarios cargados con filtros: {"total":8,"current_page":1,"filters":[]} 
+[2025-10-24 11:20:58] local.INFO: Usuarios cargados con filtros: {"total":6,"current_page":1,"filters":[]} 
+[2025-10-24 11:21:11] local.INFO: Usuarios cargados con filtros: {"total":6,"current_page":2,"filters":{"page":"2","per_page":"5"}} 
+[2025-10-24 11:21:17] local.INFO: Usuarios cargados con filtros: {"total":6,"current_page":1,"filters":{"page":"1","per_page":"5"}} 
