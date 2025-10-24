@@ -9,6 +9,7 @@
 /vendor
 .DS_Store
 .env
+.env_loca
 .env.backup
 .env.production
 .phpactor.json
