@@ -12,6 +12,10 @@ services:
       - .:/app
     working_dir: /app
     command: php artisan serve --host=0.0.0.0 --port=8000
+    environment:
+      # Estas dos variables permiten usar un solo archivo .env para todo
+      - APP_URL=http://0.0.0.0:8000
+      - DB_DATABASE_PATH=/app/database/database.sqlite
     restart: unless-stopped
 
   ngrok:
