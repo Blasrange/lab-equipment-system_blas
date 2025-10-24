@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: lab-equipment-system
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: php artisan serve --host=0.0.0.0 --port=8000
+    restart: unless-stopped
+
+  ngrok:
+    image: ngrok/ngrok:latest
+    container_name: lab-ngrok
+    depends_on:
+      - app
+    command: >
+      http lab-equipment-system:8000 --log=stdout
+    environment:
+      - NGROK_AUTHTOKEN=34DuTrGNs0nU1Kx0jZ55C7NRcDP_7fBiMBKoGVP8bk1PbcGuY
+    restart: unless-stopped

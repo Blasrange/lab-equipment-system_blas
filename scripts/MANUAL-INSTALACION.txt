@@ -1,0 +1,260 @@
+═══════════════════════════════════════════════════════════════════
+                   📋 MANUAL DE INSTALACIÓN
+              SISTEMA DE GESTIÓN DE EQUIPOS DE LABORATORIO
+                        Versión 2.0 - 2025
+═══════════════════════════════════════════════════════════════════
+
+🎯 INICIO SÚPER RÁPIDO (Recomendado)
+═══════════════════════════════════════════════════════════════════
+
+1. 📂 Extraer el archivo comprimido en cualquier ubicación
+2. 🖱️  Hacer clic derecho en "EJECUTAR.bat"
+3. ⚡ Seleccionar "Ejecutar como administrador"
+4. ☕ Esperar (todo es automático)
+5. 🌐 ¡El navegador se abrirá automáticamente!
+
+┌─────────────────────────────────────────────────────────────────┐
+│  ⚠️  IMPORTANTE: Ejecutar SIEMPRE como administrador            │
+│     para que la instalación automática funcione correctamente   │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+🔧 ¿QUÉ HACE AUTOMÁTICAMENTE EL SISTEMA?
+═══════════════════════════════════════════════════════════════════
+
+✅ Detecta si Node.js está instalado (si no, lo instala)
+✅ Detecta si PHP está instalado (si no, lo instala)  
+✅ Detecta si Composer está instalado (si no, lo instala)
+✅ Instala dependencias del proyecto (solo primera vez)
+✅ Configura la base de datos (solo primera vez)
+✅ Compila la interfaz (solo primera vez)
+✅ Detecta tu IP de red automáticamente
+✅ Abre el navegador en la URL correcta
+✅ Oculta la terminal (pero sigue funcionando)
+✅ Se adapta si cambias de red/IP
+
+═══════════════════════════════════════════════════════════════════
+🌐 ACCESO AL SISTEMA
+═══════════════════════════════════════════════════════════════════
+
+Una vez iniciado, el sistema estará disponible en:
+
+📍 ACCESO LOCAL (en tu PC):
+   http://localhost:8000
+
+📍 ACCESO EN RED (desde otras PCs):
+   http://[TU-IP]:8000
+   
+   Ejemplo: http://192.168.1.100:8000
+
+┌─────────────────────────────────────────────────────────────────┐
+│  💡 NOTA: La IP exacta se mostrará al iniciar el sistema       │
+│      y se adaptará automáticamente si cambias de red           │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+📱 COMPARTIR EN LA RED LOCAL
+═══════════════════════════════════════════════════════════════════
+
+Para que otras personas accedan desde sus dispositivos:
+
+1. 🖥️  Inicia el sistema en tu PC (como se explica arriba)
+2. 📋 Copia la URL que aparece: http://[TU-IP]:8000
+3. 📤 Comparte esa URL con otros usuarios
+4. 📱 Ellos pueden acceder desde cualquier dispositivo:
+   • Computadoras (Windows, Mac, Linux)
+   • Tablets 
+   • Teléfonos móviles
+   • Cualquier dispositivo con navegador web
+
+┌─────────────────────────────────────────────────────────────────┐
+│  🔥 VENTAJA: Si tu IP cambia, el sistema se adapta solo!       │
+│      No necesitas reconfigurar nada                            │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+📁 ESTRUCTURA DE ARCHIVOS IMPORTANTES
+═══════════════════════════════════════════════════════════════════
+
+lab-equipment-system/
+├── 🚀 EJECUTAR.bat                    ← ¡ARCHIVO PRINCIPAL!
+├── 📋 MENU-MANUAL.txt                ← Este manual
+├── 📋 scripts/
+│   ├── menu-principal.bat            ← Menú completo con opciones
+│   ├── iniciar-lab-equipment-system.bat
+│   ├── instalar-dependencias.bat
+│   ├── crear-backup.bat              ← Crear respaldos
+│   ├── restaurar-backup.bat          ← Restaurar respaldos
+│   └── detener-sistema.bat           ← Parar el sistema
+└── 📁 (otros archivos del sistema)
+
+═══════════════════════════════════════════════════════════════════
+⚙️ OPCIONES AVANZADAS (Opcional)
+═══════════════════════════════════════════════════════════════════
+
+Si prefieres más control sobre el proceso:
+
+1. 📂 Ir a la carpeta "scripts"
+2. 🖱️  Hacer clic derecho en "menu-principal.bat"
+3. ⚡ Seleccionar "Ejecutar como administrador"
+4. 🔢 Seleccionar opciones:
+   • Opción 2: Instalar dependencias (primera vez)
+   • Opción 1: Iniciar sistema
+   • Opción 3: Crear backup de datos
+   • Opción 5: Detener sistema
+
+═══════════════════════════════════════════════════════════════════
+🛑 CÓMO DETENER EL SISTEMA
+═══════════════════════════════════════════════════════════════════
+
+MÉTODO 1 (Rápido):
+• Ejecutar "scripts\detener-sistema.bat"
+
+MÉTODO 2 (Desde menú):
+• Ejecutar "scripts\menu-principal.bat" 
+• Seleccionar opción 5
+
+┌─────────────────────────────────────────────────────────────────┐
+│  ⚠️  IMPORTANTE: Usar siempre estos métodos para parar el      │
+│     sistema correctamente y limpiar archivos temporales        │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+🖥️ REQUISITOS DEL SISTEMA
+═══════════════════════════════════════════════════════════════════
+
+🔧 SE INSTALAN AUTOMÁTICAMENTE:
+   • Node.js v18 o superior
+   • PHP v8.2 o superior  
+   • Composer (gestor de dependencias)
+
+💾 REQUISITOS MÍNIMOS:
+   • Windows 10 o 11
+   • 4 GB de RAM
+   • 2 GB de espacio libre en disco
+   • Conexión a Internet (solo para instalación inicial)
+
+🌐 OPCIONAL:
+   • Router/Red local (para compartir con otros dispositivos)
+
+═══════════════════════════════════════════════════════════════════
+🔒 CONFIGURACIÓN DE FIREWALL (Si hay problemas de acceso)
+═══════════════════════════════════════════════════════════════════
+
+Si otros dispositivos no pueden acceder, ejecutar como administrador:
+
+1. 🖱️  Abrir "Símbolo del sistema" como administrador
+2. 📝 Copiar y pegar este comando:
+
+netsh advfirewall firewall add rule name="Lab Equipment System" dir=in action=allow protocol=TCP localport=8000
+
+3. ⏎ Presionar Enter
+4. ✅ Reiniciar el sistema
+
+═══════════════════════════════════════════════════════════════════
+💾 SISTEMA DE RESPALDOS
+═══════════════════════════════════════════════════════════════════
+
+El sistema incluye herramientas de backup automático:
+
+🔄 CREAR BACKUP:
+   • Ejecutar "scripts\crear-backup.bat"
+   • Se guarda en carpeta "backups"
+
+📂 RESTAURAR BACKUP:
+   • Ejecutar "scripts\restaurar-backup.bat"
+   • Seleccionar archivo a restaurar
+
+┌─────────────────────────────────────────────────────────────────┐
+│  💡 TIP: Crear backups periódicamente para proteger tus datos  │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+🆘 SOLUCIÓN DE PROBLEMAS COMUNES
+═══════════════════════════════════════════════════════════════════
+
+❌ PROBLEMA: "No se puede acceder desde otro dispositivo"
+✅ SOLUCIÓN: 
+   • Verificar que ambos estén en la misma red WiFi
+   • Configurar firewall (ver sección anterior)
+   • Verificar que la IP sea correcta
+
+❌ PROBLEMA: "Error al instalar dependencias"
+✅ SOLUCIÓN:
+   • Asegurarse de ejecutar como administrador
+   • Verificar conexión a Internet
+   • Ejecutar "scripts\instalar-dependencias.bat" manualmente
+
+❌ PROBLEMA: "El navegador no se abre automáticamente"
+✅ SOLUCIÓN:
+   • Abrir manualmente: http://localhost:8000
+   • Verificar que el sistema esté iniciado
+
+❌ PROBLEMA: "Error de puerto 8000"
+✅ SOLUCIÓN:
+   • Ejecutar "scripts\detener-sistema.bat"
+   • Esperar 30 segundos
+   • Volver a iniciar el sistema
+
+═══════════════════════════════════════════════════════════════════
+📊 FUNCIONALIDADES DEL SISTEMA
+═══════════════════════════════════════════════════════════════════
+
+✅ Gestión completa de equipos de laboratorio
+✅ Control de mantenimientos y calibraciones  
+✅ Sistema de notificaciones automáticas
+✅ Exportación de reportes a Excel
+✅ Interfaz moderna y responsive
+✅ Base de datos SQLite integrada (no requiere servidor)
+✅ Funciona completamente sin Internet (después de instalar)
+✅ Acceso desde múltiples dispositivos simultáneamente
+✅ Respaldos automáticos de datos
+✅ Adaptación automática a cambios de red
+
+═══════════════════════════════════════════════════════════════════
+🔄 ACTUALIZACIONES
+═══════════════════════════════════════════════════════════════════
+
+Para actualizar a una versión más nueva:
+
+1. 💾 Crear backup de datos (scripts\crear-backup.bat)
+2. 📂 Reemplazar archivos del sistema con la nueva versión
+3. 🚀 Ejecutar "EJECUTAR.bat" normalmente
+4. ✅ Los datos se conservarán automáticamente
+
+═══════════════════════════════════════════════════════════════════
+📞 SOPORTE Y INFORMACIÓN ADICIONAL
+═══════════════════════════════════════════════════════════════════
+
+📖 DOCUMENTACIÓN TÉCNICA:
+   • README.md (información detallada)
+   • scripts\DISTRIBUCION.md (detalles técnicos)
+
+🛠️ ARCHIVOS DE CONFIGURACIÓN:
+   • .env (configuración del sistema)
+   • database\database.sqlite (base de datos)
+
+📁 LOGS DEL SISTEMA:
+   • storage\logs\ (registros de errores)
+
+═══════════════════════════════════════════════════════════════════
+✨ RESUMEN RÁPIDO
+═══════════════════════════════════════════════════════════════════
+
+1. 🚀 Ejecutar "EJECUTAR.bat" como administrador
+2. ☕ Esperar a que se instale todo automáticamente  
+3. 🌐 El navegador se abrirá solo
+4. 📤 Compartir la URL con otros usuarios
+5. 🛑 Para parar: ejecutar "scripts\detener-sistema.bat"
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     ¡LISTO PARA USAR!                          │
+│        El sistema está diseñado para ser súper fácil           │
+│              Todo funciona automáticamente                     │
+└─────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════
+                        🏆 DISFRUTA EL SISTEMA
+               Sistema de Gestión de Equipos de Laboratorio
+                         Versión 2.0 - 2025
+═══════════════════════════════════════════════════════════════════
